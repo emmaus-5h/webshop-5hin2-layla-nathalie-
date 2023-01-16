@@ -2,6 +2,13 @@ Deze repo is onderdeel van het vak informatica op het Emmauscollege Rotterdam.
 
 [Meer info over deze opdracht](https://informatica.emmauscollege.nl/)
 
+# planning webshop
+1. partner kiezen
+2. webshop idee bedenken
+3. pas achtergrond kleur aan
+4. pas de titel van het eerste product aan
+5. pas de query aan zodat getoonde producten gesorteerd worden op naam
+   
 # Letop als je replit gebruikt!
 1. Als je de repo importeert in replit, dan moet je de taal "bash" kiezen.
 Dit kies je nadat je de link naar de repo hebt opgeven en voordat je op de import knop drukt.
