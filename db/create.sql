@@ -33,7 +33,7 @@ insert into products (name, description, code, price) values ('obsidaan ', 'obsi
 insert into products (name, description, code, price) values ('petersiet', 'petersiet is een donker kleurige steen die een manivesterende werking meebrengt.' , '007304' , 12);
 insert into products (name, description, code, price) values ('ocean jaspis', 'de ocean jaspis is een groene kridtal die een motiverende werking geeft. dit kristal geeft je een hondert procent inzet.' , '007305' , 12);
 insert into products (name, description, code, price) values ('okeniet' , 'okeniet is een witte/gele bolvormige krisal. deze kristal zorgt ervoor dat ze waarheid omhoog komt en de steen beschermd je ook tegen de gevolgen.' , '007306' , 12);
-
-
+insert into products (name, description, code, price) values ('Amethist' , 'Amethist is een paars kleurige edelsteen. deze steen heeft een  beschermende en zuivere werking.' , '007307' , 12);
+insert into products (name, description, code, price) values ('citrien' , 'citrien is een zonnige steen. deze steen heeft een werking van zelfvertrouwen en zelfrespect' , '007308' , 12);
 
 insert into eigenschappen (grootte, kleur, functie) values ('3 cm, roze', 'liefde en bescherming', 1);
