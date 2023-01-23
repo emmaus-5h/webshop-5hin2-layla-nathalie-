@@ -27,12 +27,12 @@ CREATE TABLE eigenschappen (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price) values ('roze quarts steen , `de roze quarts is een troebele steen met een roze achtige kleur. de steen staat voor liefde en bescherming.' , '007301' , 12);
-insert into products (name, description, code, price) values ('fluoriet , floriet is een edelsteen met een beschermende werking. met deze steen krijg je een betere zelfvertrouwen en brengt structuur in je leven.' '007302' , 12);
-insert into products (name, description, code, price) values ('obsidaan , obsidaan is een donker kleurige steen. vaak is deze kleur zwart of paars. deze steen heeft een werking van persoonlijke groei. door deze steen komt de waarheid naar boven.' , '007303' , 12);
-insert into products (name, description, code, price) values ();
-insert into products (name, description, code, price) values ();
-insert into products (name, description, code, price) values ();
+insert into products (name, description, code, price) values ('roze quarts steen' , 'de roze quarts is een troebele steen met een roze achtige kleur. de steen staat voor liefde en bescherming.' , '007301' , 12);
+insert into products (name, description, code, price) values ('fluoriet ', 'floriet is een edelsteen met een beschermende werking. met deze steen krijg je een betere zelfvertrouwen en brengt structuur in je leven.' , '007302' , 12);
+insert into products (name, description, code, price) values ('obsidaan ', 'obsidaan is een donker kleurige steen. vaak is deze kleur zwart of paars. deze steen heeft een werking van persoonlijke groei. door deze steen komt de waarheid naar boven.' , '007303' , 12);
+insert into products (name, description, code, price) values ('petersiet', 'petersiet is een donker kleurige steen die een manivesterende werking meebrengt.' , '007304' , 12);
+insert into products (name, description, code, price) values ('ocean jaspis', 'de ocean jaspis is een groene kridtal die een motiverende werking geeft. dit kristal geeft je een hondert procent inzet.' , '007305' , 12);
+insert into products (name, description, code, price) values ('okeniet' , 'okeniet is een witte/gele bolvormige krisal. deze kristal zorgt ervoor dat ze waarheid omhoog komt en de steen beschermd je ook tegen de gevolgen.' , '007306' , 12);
 
 
 
