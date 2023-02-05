@@ -14,9 +14,34 @@ CREATE TABLE products (
 CREATE TABLE eigenschappen (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   grootte VARCHAR(15),
-  kleur VARCHAR(255),
+  kleur VARCHAR(15),
   functie TEXT,
-  products_id
+  products_id INTEGER
+);
+
+CREATE TABLE plaatjes (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  plaatje VARBINARY(MAX),
+  products_id INTEGER
+);
+
+CREATE TABLE bestelling (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  klant_id INTEGER,
+  totaalprijs numeric(10,2)
+);
+
+CREATE TABLE bestellingitems (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  bestelling_id INTEGER,
+  products_id INTEGER,
+  aantal INTEGER
+);
+
+CREATE TABLE klant (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name VARCHAR(50),
+  adres varchar(50),
 );
 --
 -- populate with data
