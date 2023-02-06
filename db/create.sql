@@ -22,7 +22,7 @@ CREATE TABLE eigenschappen (
 
 CREATE TABLE plaatjes (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  plaatje VARBINARY(MAX),
+  plaatje VARBINARY,
   products_id INTEGER
 );
 
