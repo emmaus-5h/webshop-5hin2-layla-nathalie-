@@ -66,13 +66,13 @@ insert into products (name, description, code, price) values('hematiet' , 'hemat
 
 
 
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('3 cm', 'roze', '20 gram', 'liefde en bescherming', 1);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('4 cm', 'groen/roze', '25 gram', 'bescherming en zelfvertrouwen', 2);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('3,5 cm', 'zwart/paars', '22.5 gram', 'persoonlijke groei', 3);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('6 cm', 'bruin/rood', '20 gram', 'manivesteren', 4);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('5 cm', 'groen', '21 gram', 'motiveren', 5);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('5.5 cm', 'wit/geel', '23 gram', 'waarheid en beschreming', 6);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('4.5 cm', 'paars', '24.5 gram', 'zuivering en bescherming', 7);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('3 cm', 'geel', '28 gram', 'zelfvertrouwen en zelfrespect', 8);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('3 cm', 'rood/groen', '20 gram', 'bescherming en balans', 9);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('4 cm', 'grijs', '22 gram', 'betere immuunsysteem', 10);
+insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('3 cm', 'roze', '20 gram', 'liefde en bescherming', 1);
+insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('4 cm', 'groen/roze', '25 gram', 'bescherming en zelfvertrouwen', 2);
+insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('3,5 cm', 'zwart/paars', '22.5 gram', 'persoonlijke groei', 3);
+insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('6 cm', 'bruin/rood', '20 gram', 'manivesteren', 4);
+insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('5 cm', 'groen', '21 gram', 'motiveren', 5);
+insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('5.5 cm', 'wit/geel', '23 gram', 'waarheid en beschreming', 6);
+insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('4.5 cm', 'paars', '24.5 gram', 'zuivering en bescherming', 7);
+insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('3 cm', 'geel', '28 gram', 'zelfvertrouwen en zelfrespect', 8);
+insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('3 cm', 'rood/groen', '20 gram', 'bescherming en balans', 9);
+insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('4 cm', 'grijs', '22 gram', 'betere immuunsysteem', 10);
