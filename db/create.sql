@@ -10,7 +10,7 @@ CREATE TABLE products (
   price NUMERIC(10, 2)
 );
 
-
+--n1:1 realtei, toevoegen aan product tabel
 CREATE TABLE eigenschappen (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   grootte VARCHAR(15),
@@ -20,11 +20,12 @@ CREATE TABLE eigenschappen (
   products_id INTEGER
 );
 
-CREATE TABLE plaatjes (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  plaatje VARBINARY,
-  products_id INTEGER
-);
+-- link naar plaatje wordt in index.html gemaakt op basis van id
+  -- CREATE TABLE plaatjes (
+  --id INTEGER PRIMARY KEY AUTOINCREMENT,
+  --plaatje VARBINARY,
+  -- products_id INTEGER
+--);
 
 CREATE TABLE bestelling (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -44,6 +45,11 @@ CREATE TABLE klant (
   name VARCHAR(50),
   adres varchar(50)
 );
+
+-- ik mis nog een n:m relatie
+
+
+
 --
 -- populate with data
 --
