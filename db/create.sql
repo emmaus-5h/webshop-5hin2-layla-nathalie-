@@ -61,18 +61,18 @@ insert into products (name, description, code, price) values ('ocean jaspis', 'd
 insert into products (name, description, code, price) values ('okeniet' , 'okeniet is een witte/gele bolvormige krisal. deze kristal zorgt ervoor dat ze waarheid omhoog komt en de steen beschermd je ook tegen de gevolgen.' , '007309' , 12);
 insert into products (name, description, code, price) values ('Amethist' , 'Amethist is een paars kleurige edelsteen. deze steen heeft een  beschermende en zuivere werking.' , '007301' , 12);
 insert into products (name, description, code, price) values ('citrien' , 'citrien is een zonnige steen. deze steen heeft een werking van zelfvertrouwen en zelfrespect' , '007302' , 12);
-insert into products (name, descrption, code, price) values('heliodoor' , 'heliodoor is een rood/ groen kleurige steen die een beschermend, aardend en balans brengt. je kan bij irritatie de steen gebruiken om tot rust te komen.je krijgt zelfbeheersing en controle over jezelf en de situatie' , '007305' , 12);
-insert into products (name, descrption, code, price) values('hematiet' , 'hematiet is een speciale kristal die een metaalglans heeft. de werking van de steen is helend. het zorgt voor een betere doorbloeding en vorming van rode bloedcellen. het is goed te gebruiken tijdens menstruatie. het zorgt voor een betere imuunsysyteem,' , '007304' , 12);
+insert into products (name, description, code, price) values('heliodoor' , 'heliodoor is een rood/ groen kleurige steen die een beschermend, aardend en balans brengt. je kan bij irritatie de steen gebruiken om tot rust te komen.je krijgt zelfbeheersing en controle over jezelf en de situatie' , '007305' , 12);
+insert into products (name, description, code, price) values('hematiet' , 'hematiet is een speciale kristal die een metaalglans heeft. de werking van de steen is helend. het zorgt voor een betere doorbloeding en vorming van rode bloedcellen. het is goed te gebruiken tijdens menstruatie. het zorgt voor een betere imuunsysyteem,' , '007304' , 12);
 
 
 
 insert into eigenschappen (grootte, kleur, gewicht, functie) values ('3 cm', 'roze', '20 gram', 'liefde en bescherming', 1);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('4 cm', 'roze', '25 gram', 'bescherming en zelfvertrouwen', 2);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('3,5 cm', 'roze', '22.5 gram', 'persoonlijke groei', 3);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('6 cm', 'roze', '20 gram', 'manivesteren', 4);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('5 cm', 'roze', '21 gram', 'motiveren', 5);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('5.5 cm', 'roze', '23 gram', 'waarheid en beschreming', 6);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('4.5 cm', 'roze', '24.5 gram', 'zuivering en bescherming', 7);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('3 cm', 'roze', '28 gram', 'zelfvertrouwen en zelfrespect', 8);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('3 cm', 'roze', '20 gram', 'bescherming en balans', 9);
-insert into eigenschappen (grootte, kleur, gewicht, functie) values ('4 cm', 'roze', '22 gram', 'betere immuunsysteem', 10);
+insert into eigenschappen (grootte, kleur, gewicht, functie) values ('4 cm', 'groen/roze', '25 gram', 'bescherming en zelfvertrouwen', 2);
+insert into eigenschappen (grootte, kleur, gewicht, functie) values ('3,5 cm', 'zwart/paars', '22.5 gram', 'persoonlijke groei', 3);
+insert into eigenschappen (grootte, kleur, gewicht, functie) values ('6 cm', 'bruin/rood', '20 gram', 'manivesteren', 4);
+insert into eigenschappen (grootte, kleur, gewicht, functie) values ('5 cm', 'groen', '21 gram', 'motiveren', 5);
+insert into eigenschappen (grootte, kleur, gewicht, functie) values ('5.5 cm', 'wit/geel', '23 gram', 'waarheid en beschreming', 6);
+insert into eigenschappen (grootte, kleur, gewicht, functie) values ('4.5 cm', 'paars', '24.5 gram', 'zuivering en bescherming', 7);
+insert into eigenschappen (grootte, kleur, gewicht, functie) values ('3 cm', 'geel', '28 gram', 'zelfvertrouwen en zelfrespect', 8);
+insert into eigenschappen (grootte, kleur, gewicht, functie) values ('3 cm', 'rood/groen', '20 gram', 'bescherming en balans', 9);
+insert into eigenschappen (grootte, kleur, gewicht, functie) values ('4 cm', 'grijs', '22 gram', 'betere immuunsysteem', 10);
