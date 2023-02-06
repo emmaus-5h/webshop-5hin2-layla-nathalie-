@@ -53,16 +53,16 @@ CREATE TABLE klant (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price) values ('roze quarts' , 'de roze quarts is een troebele steen met een roze achtige kleur. de steen staat voor liefde en bescherming.' , '0073010' , 12);
+insert into products (name, description, code, price) values ('roze quarts' , 'Een roze quarts noem je ook wel Hyaline quarts. Deze steen behoord tot de minerale groep. De kleur is roze en heeft een transparante gloed. De steen staat voor liefde en bescherming.' , '0073010' , 12);
 insert into products (name, description, code, price) values ('fluoriet ', 'floriet is een edelsteen met een beschermende werking. met deze steen krijg je een betere zelfvertrouwen en brengt structuur in je leven.' , '007303' , 12);
 insert into products (name, description, code, price) values ('obsidaan ', 'obsidaan is een donker kleurige steen. vaak is deze kleur zwart of paars. deze steen heeft een werking van persoonlijke groei. door deze steen komt de waarheid naar boven.' , '007306' , 12);
-insert into products (name, description, code, price) values ('petersiet', 'petersiet is een donker kleurige steen die een manivesterende werking meebrengt.' , '007308' , 12);
+insert into products (name, description, code, price) values ('petersiet', 'petersiet is een donker kleurige steen die een manivesterende werking meebrengt.' , '007309' , 12);
 insert into products (name, description, code, price) values ('ocean jaspis', 'de ocean jaspis is een groene kridtal die een motiverende werking geeft. dit kristal geeft je een hondert procent inzet.' , '007307' , 12);
-insert into products (name, description, code, price) values ('okeniet' , 'okeniet is een witte/gele bolvormige krisal. deze kristal zorgt ervoor dat ze waarheid omhoog komt en de steen beschermd je ook tegen de gevolgen.' , '007309' , 12);
+insert into products (name, description, code, price) values ('okeniet' , 'okeniet is een witte/gele bolvormige krisal. deze kristal zorgt ervoor dat ze waarheid omhoog komt en de steen beschermd je ook tegen de gevolgen.' , '007308' , 12);
 insert into products (name, description, code, price) values ('Amethist' , 'Amethist is een paars kleurige edelsteen. deze steen heeft een  beschermende en zuivere werking.' , '007301' , 12);
 insert into products (name, description, code, price) values ('citrien' , 'citrien is een zonnige steen. deze steen heeft een werking van zelfvertrouwen en zelfrespect' , '007302' , 12);
-insert into products (name, description, code, price) values('heliodoor' , 'heliodoor is een rood/ groen kleurige steen die een beschermend, aardend en balans brengt. je kan bij irritatie de steen gebruiken om tot rust te komen.je krijgt zelfbeheersing en controle over jezelf en de situatie' , '007305' , 12);
-insert into products (name, description, code, price) values('hematiet' , 'hematiet is een speciale kristal die een metaalglans heeft. de werking van de steen is helend. het zorgt voor een betere doorbloeding en vorming van rode bloedcellen. het is goed te gebruiken tijdens menstruatie. het zorgt voor een betere imuunsysyteem,' , '007304' , 12);
+insert into products (name, description, code, price) values('heliodoor' , 'heliodoor is een rood/ groen kleurige steen die een beschermend, aardend en balans brengt. je kan bij irritatie de steen gebruiken om tot rust te komen.je krijgt zelfbeheersing en controle over jezelf en de situatie' , '007304' , 12);
+insert into products (name, description, code, price) values('hematiet' , 'hematiet is een speciale kristal die een metaalglans heeft. de werking van de steen is helend. het zorgt voor een betere doorbloeding en vorming van rode bloedcellen. het is goed te gebruiken tijdens menstruatie. het zorgt voor een betere imuunsysyteem,' , '007305' , 12);
 
 
 
