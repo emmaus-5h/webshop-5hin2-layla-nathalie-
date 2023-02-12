@@ -85,3 +85,11 @@ insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values
 insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('4 cm', 'grijs', '22 gram', 'betere immuunsysteem', 10);
 insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('4 cm', 'kleur', 'gewicht', 'werking', 11);
 insert into eigenschappen (grootte, kleur, gewicht, functie, products_id) values ('4 cm', 'kleur', 'gewicht', 'werking', 12);
+
+insert into klant ( name, adres) values ('Henry Johnsen', 'paardenbloemstraat 144');
+insert into klant ( name, adres) values ('Mary Bloempot', 'bloemstraat 18');
+insert into klant ( name, adres) values ('Maxine Bei', 'grasstraat 56');
+
+insert into bestelling (klant_id, totaalprijs) values ('1', '10,00');
+insert into bestelling (klant_id, totaalprijs) values ('2', '18,50');
+insert into bestelling (klant_id, totaalprijs) values ('3', '23,00');
