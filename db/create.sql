@@ -80,9 +80,9 @@ insert into klant (name, adres) values ('Henry Johnsen', 'paardenbloemstraat 144
 insert into klant (name, adres) values ('Mary Bloempot', 'bloemstraat 18');
 insert into klant (name, adres) values ('Maxine Bei', 'grasstraat 56');
 
-insert into bestelling (klant_id, totaalprijs) values ('1', '10,00');
-insert into bestelling (klant_id, totaalprijs) values ('2', '18,50');
-insert into bestelling (klant_id, totaalprijs) values ('3', '23,00');
+insert into bestelling (klant_id, totaalprijs) values (1, '10,00');
+insert into bestelling (klant_id, totaalprijs) values (2, '18,50');
+insert into bestelling (klant_id, totaalprijs) values (3, '23,00');
 
 insert into bestellingitems (bestelling_id, products_id, aantal) values (1, 1, 3);
 insert into bestellingitems (bestelling_id, products_id, aantal) values (2, 5, 1);
