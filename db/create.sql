@@ -145,7 +145,7 @@ insert into products (name, description, code, price, grootte, kleur, gewicht, f
   'betere immuunsysteem');
 insert into products (name, description, code, price, grootte, kleur, gewicht, functie) 
   values ('Adamiet' , 
-  'beschrijving' , 
+  'adamiet maakt een conectie met wie je bent en wat er in je hart zit' , 
   '007311' , 
   12, 
   '4 cm', 
@@ -154,7 +154,7 @@ insert into products (name, description, code, price, grootte, kleur, gewicht, f
   'werking'); 
 insert into products (name, description, code, price, grootte, kleur, gewicht, functie) 
   values ('Agaat ' , 
-  'beschrijving' , 
+  'agaat laat je veilig voelen en kalmeerd je' , 
   '007312' , 
   12, 
   '4 cm', 

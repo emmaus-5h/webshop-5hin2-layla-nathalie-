@@ -83,6 +83,45 @@ function getProductById(request, response) {
   response.status(200).json(data[0])
 }
 
+function getBestelling(request, response) {
+  console.log('API ontvangt /api/bestelling/', request.query)
+  let data = []
+  const sqlOpdracht = db.prepare('SELECT bestelling.id AS id, bestelling.klant_id AS klant_id, bestelling.totaalprijs AS totaalprijs FROM bestelling')
+  data = sqlOpdracht.all()
+  // console.log(JSON.stringify(data, null, 2))
+  response.status(200).send(data)
+  console.log('API verstuurt /api/bestelling/')
+}
+
+function getBestellingitems(request, response) {
+  console.log('API ontvangt /api/bestellingitems/', request.query)
+  let data = []
+  const sqlOpdracht = db.prepare('SELECT bestellingitems.id AS id, bestellingitems.bestelling_id AS bestelling_id, bestellingitems.products_id AS products_id, bestellingitems.aantal AS aantal FROM b')
+  data = sqlOpdracht.all()
+  // console.log(JSON.stringify(data, null, 2))
+  response.status(200).send(data)
+  console.log('API verstuurt /api/bestellingitems/')
+}
+
+function getKlant(request, response) {
+  console.log('API ontvangt /api/klant/', request.query)
+  let data = []
+  const sqlOpdracht = db.prepare('SELECT klant.id AS id, klant.name AS name, klant.adres AS adres FROM klant')
+  data = sqlOpdracht.all()
+  // console.log(JSON.stringify(data, null, 2))
+  response.status(200).send(data)
+  console.log('API verstuurt /api/klant/')
+}
+
+function getKarakteristiek(request, response) {
+  console.log('API ontvangt /api/karakteristiek/', request.query)
+  let data = []
+  const sqlOpdracht = db.prepare('SELECT karakteristiek.id AS id, karakteristiek.products_id AS products_id, karakteristiek.karakteristiek AS karakteristiek FROM karakteristiek')
+  data = sqlOpdracht.all()
+  // console.log(JSON.stringify(data, null, 2))
+  response.status(200).send(data)
+  console.log('API verstuurt /api/karakteristiek/')
+}
 /*
 const getRelatedProductsById = (request, response) => {
   const id = parseInt(request.params.id)
