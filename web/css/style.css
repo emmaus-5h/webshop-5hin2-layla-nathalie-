@@ -50,9 +50,10 @@ footer {
   margin-top: 20px;
 }
 
-.product img {
+.product_image {
   margin-bottom: 20px;
   margin-top: 20px;
+  border-radius: 50%;
 }
 
 .product > .card-header {

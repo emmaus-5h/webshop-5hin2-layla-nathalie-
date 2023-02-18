@@ -145,22 +145,22 @@ insert into products (name, description, code, price, grootte, kleur, gewicht, f
   'betere immuunsysteem');
 insert into products (name, description, code, price, grootte, kleur, gewicht, functie) 
   values ('Adamiet' , 
-  'adamiet maakt een conectie met wie je bent en wat er in je hart zit' , 
+  'Adamiet is een kristal die voor fysieke heling goed is. je krijgt minder last van migraine en hoofdpijn. Ook helpt deze steen met slapenloosheid. Het zorgt ervoor dat je zorgen worden weggetrokken.' , 
   '007311' , 
   12, 
   '4 cm', 
-  'kleur', 
-  'gewicht', 
-  'werking'); 
+  'groen', 
+  '21 gram', 
+  ''); 
 insert into products (name, description, code, price, grootte, kleur, gewicht, functie) 
   values ('Agaat ' , 
-  'agaat laat je veilig voelen en kalmeerd je' , 
+  'Agaat is een kristal die een variatie heeft van kleur en vorm. Deze steen heeft een beschermende en ardende werking. Je krijgt meer vertrouwen in jezelf en wat je doet. Je krijgt er rust en balans door.' , 
   '007312' , 
   12, 
   '4 cm', 
-  'kleur', 
-  'gewicht', 
-  'werking'); 
+  'bruin/blauw/wit', 
+  '25 gram', 
+  'vertrouwen en rust'); 
 
 insert into karakteristiek (products_id, karakteristiek) values (1, 'aan een ketting');
 insert into karakteristiek (products_id, karakteristiek) values (2, 'aan een armband');
@@ -172,7 +172,7 @@ insert into karakteristiek (products_id, karakteristiek) values (7, 'aan een ket
 insert into karakteristiek (products_id, karakteristiek) values (8, 'aan een ketting');
 insert into karakteristiek (products_id, karakteristiek) values (9, 'aan een armband');
 insert into karakteristiek (products_id, karakteristiek) values (10,'aan een ketting');
-
+insert into karakteristiek (products_id, karakteristiek) values (11,'aan een ketting');
 insert into klant (name, adres) values ('Henry Johnsen', 'paardenbloemstraat 144');
 insert into klant (name, adres) values ('Mary Bloempot', 'bloemstraat 18');
 insert into klant (name, adres) values ('Maxine Bei', 'grasstraat 56');
