@@ -29,8 +29,8 @@ footer {
 }
 
 .card {
-  width:200px; 
-  height: 750px; 
+  width:250px; 
+  height: 700px; 
   margin-bottom: 20px
 }
 
@@ -46,8 +46,8 @@ footer {
 .product{
   width: 100%; 
   height: inherit; 
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom:20px;
+  margin-top:20px;
 }
 
 .product_image {
@@ -83,4 +83,8 @@ footer {
 
 body{
   background-color: #dcdcc6;
+}
+
+img{
+  height:240px;
 }

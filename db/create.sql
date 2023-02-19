@@ -83,7 +83,7 @@ insert into products (name, description, code, price, grootte, kleur, gewicht, f
   'persoonlijke groei');
 insert into products (name, description, code, price, grootte, kleur, gewicht, functie) 
   values ('Petersiet', 
-  'Petersiet is een donker kleurige steen die bruin of rood kan zijn. Petersiet helpt met negatieve                gedragspatronen en helpt met oude conflicten. Petersiet is een steen waarmee je goed kunt manivesteren. Het     helpt met positieve gebeurtenissen in de teokomst.' , 
+  'Petersiet is een donker kleurige steen die bruin of rood kan zijn. Petersiet helpt met negatieve                    gedragspatronen en helpt met oude conflicten. Petersiet is een steen waarmee je goed kunt manivesteren en je dromen uit kan laten komen. Het helpt met positieve gebeurtenissen in de toekomst.' , 
   '007309' , 
   12, 
   '6 cm', 
@@ -173,6 +173,8 @@ insert into karakteristiek (products_id, karakteristiek) values (8, 'aan een ket
 insert into karakteristiek (products_id, karakteristiek) values (9, 'aan een armband');
 insert into karakteristiek (products_id, karakteristiek) values (10,'aan een ketting');
 insert into karakteristiek (products_id, karakteristiek) values (11,'aan een ketting');
+insert into karakteristiek (products_id, karakteristiek) values (12,'aan een ketting');
+
 insert into klant (name, adres) values ('Henry Johnsen', 'paardenbloemstraat 144');
 insert into klant (name, adres) values ('Mary Bloempot', 'bloemstraat 18');
 insert into klant (name, adres) values ('Maxine Bei', 'grasstraat 56');
